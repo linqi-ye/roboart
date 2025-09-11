@@ -50,6 +50,18 @@
     <section id="products" class="products">
         <div class="container">
             <h2 data-aos="fade-up">我们的产品</h2>
+                <style>
+        /* 仅添加以下CSS修改图片高度 */
+        .product-image {
+            height: 200px;      /* 固定图片容器高度 */
+            overflow: hidden;   /* 隐藏超出部分 */
+        }
+        .product-image img {
+            width: 100%;        /* 图片宽度填满容器 */
+            height: 100%;       /* 图片高度填满容器 */
+            object-fit: cover;  /* 保持比例并裁剪填充 */
+        }
+    </style>
             <div class="product-grid">
                 <div class="product-card" data-aos="fade-up">
                     <div class="product-image">
@@ -85,8 +97,8 @@
             <h2 data-aos="fade-up">关于我们</h2>
             <div class="about-content">
                 <div class="about-text" data-aos="fade-right">
-                    <h3>创新科技，引领未来</h3>
-                    <p>我们是一家致力于为企业提供创新技术解决方案的科技公司。自成立以来，我们始终坚持以客户需求为导向，以技术创新为驱动，为众多企业客户提供了优质的服务。</p>
+                    <h3>具身智能，引领未来</h3>
+                    <p>上海灵姬妙算智能科技有限公司，以“科技传递情感，智能温暖生活”为核心理念，致力于打造有趣、有爱、有温度的机器人产品与易用、普惠的具身智能平台。公司聚焦人机交互前沿领域，自主研发了格物具身智能仿真平台，为行业提供高效率、低门槛的具身智能学习与开发环境；同时推出表演机器人、替身交互机器人等创新产品，通过拟人化设计与情感计算技术，让智能设备具备陪伴、互动等情感价值，重新定义人机共生关系。</p>
                     <div class="stats">
                         <div class="stat-item">
                             <span class="stat-number">10+</span>
@@ -133,7 +145,7 @@
                         <i class="fas fa-envelope"></i>
                         <div class="info-content">
                             <h4>电子邮箱</h4>
-                            <p>info@company.com</p>
+                            <p>roboart25@163.com</p>
                         </div>
                     </div>
                     <div class="social-links">
