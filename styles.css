@@ -202,6 +202,14 @@ body {
     transform: scale(1.1);
 }
 
+.product-card video {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    display: block;
+    background: #000;
+}
+
 .product-card h3 {
     font-size: 24px;
     margin: 20px 0 10px;
